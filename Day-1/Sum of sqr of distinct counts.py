@@ -8,6 +8,6 @@ def sum_of_squares(nums):
             total_sum += len(distinct_elements) ** 2
     return total_sum
 nums = [1, 2, 1]
-print(sum_of_squares_of_distinct_counts(nums)) 
+print(sum_of_squares(nums)) 
 
 # Output: 15
